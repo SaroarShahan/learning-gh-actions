@@ -1,0 +1,13 @@
+name: Learning GH-Actions
+
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hellor GH-Actions"
+      
+      - name: Print goodbye
+        run: echo "We are done - bye"
